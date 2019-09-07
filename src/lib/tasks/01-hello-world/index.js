@@ -1,4 +1,7 @@
 import React from 'react';
 
 // your function should return html markup
-export default // your function here
+// your function here
+export default () => {
+    return <h1>Hello World</h1>
+}

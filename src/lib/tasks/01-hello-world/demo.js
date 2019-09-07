@@ -7,5 +7,5 @@ import HelloWorld from './index.js';
 // Note: React components have to start with an uppercase letter!
 
 export default () => {
-    return
+    return <HelloWorld/>
 };
