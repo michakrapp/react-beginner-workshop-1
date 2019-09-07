@@ -8,7 +8,7 @@ const BoldText = (props) => {
     return (
         <strong>
             {// use the children vriable from props here
-
+                props.children
             }
         </strong>
     );
