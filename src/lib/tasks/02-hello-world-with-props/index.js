@@ -10,4 +10,6 @@ import React from 'react';
 // tip: to display (or evaluate) plain variables, such as strings and numbers, simply wrap the variable
 // with curly braces
 
-export default // your function here
+export default (props) => {
+    return <h1>{props.message}</h1>
+} // your function here
